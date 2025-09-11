@@ -19,4 +19,6 @@ const person = {firstName:"Sadie", lastName:"Biggs", age:20, eyeColor:"blue"}; /
 
 
 console.log(message);
+console.log(flowers);
+console.log(person);
 document.write("This is assignment 1!")
