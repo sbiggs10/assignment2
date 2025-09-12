@@ -1,24 +1,41 @@
+function greet(name, age) {
+    console.log ("Hello I am " + name + "! I am " + age + " years old.");
+}
 
-let flowers = 100; //this is a global variable
-
-flowers = flowers / 10;
-
-flowers = flowers + 65; //mathematical operations on variable 
-
-let message = "Hi! My name is Sadie Biggs and I have a dog named Daisy!"; //this is a string variable
+greet ("Sadie Biggs", 20);
 
 
-const person = {firstName:"Sadie", lastName:"Biggs", age:20, eyeColor:"blue"}; //object variable
+function adder (num1, num2) {
+    console.log ("I have " + num1 + " sister and " + num2 + " brothers!");
+}
+
+adder (1, 3);
+
+const profile = {
+    firstName: "Sadie",
+    lastName: "Biggs",
+    favoriteColor: "Light Blue",
+    favoriteAnimal: "Otter"
+};
+
+function displayName(word1, word2) {
+    console.log (word1 + word2);
+  }
+
+displayName ("Sadie ", " Biggs");
+
+onclick = Date();
 
 
-{
-    let blooms = 96;
-    
-    blooms = blooms + 36;
-}  // this is a block variable
+let text1 = "Hello friends!";
+let text2 = text1.toUpperCase();
+console.log (text2);
 
 
-console.log(message);
-console.log(flowers);
-console.log(person);
-document.write("This is assignment 1!")
+
+console.log (profile);
+
+
+console.log(name);
+
+document.write("I'm Learning a lot about Javascript!")
